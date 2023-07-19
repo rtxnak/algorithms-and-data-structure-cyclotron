@@ -1,11 +1,7 @@
-// import { acceleratingElectron } from "./acceleratingElectron";
 const acceleratingElectron = require('./acceleratingElectron.js');
 const acceleratingNeutron = require('./acceleratingNeutron.js');
 const emptyParticle = require('./emptyParticle.js');
 const acceleratingProton = require('./acceleratingProton.js');
-
-// import { acceleratingNeutron } from "./acceleratingNeutron"
-// import { emptyParticle } from "./emptyParticle";
 
 function cyclotron(particle, matrixSize) {
   const particles = ["e", "p", "n"];
